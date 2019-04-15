@@ -1,0 +1,20 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "my training module",
+  "main": "app.js",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "nodeunit": "^0.11.3",
+    "prettier": "^1.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rizal Widyarta Gowandy",
+  "license": "ISC",
+  "private": true
+}
