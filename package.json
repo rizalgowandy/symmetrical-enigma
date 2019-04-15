@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "nodeunit $(shell find ./test -name *.js)"
+    "test": "nodeunit"
   },
   "author": "Rizal Widyarta Gowandy",
   "license": "ISC",
