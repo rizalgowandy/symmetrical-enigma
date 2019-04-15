@@ -1,5 +1,5 @@
 {
-  "name": "training",
+  "name": "symmetrical-enigma",
   "version": "1.0.0",
   "description": "my training module",
   "main": "app.js",
@@ -8,13 +8,36 @@
     "express": "^4.16.4",
     "http": "0.0.0",
     "nodeunit": "^0.11.3",
-    "prettier": "^1.17.0"
+    "prettier": "^1.17.0",
+    "sinon": "^7.3.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodeunit $(shell find ./test -name *.js)"
   },
   "author": "Rizal Widyarta Gowandy",
   "license": "ISC",
-  "private": true
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizalgowandy/symmetrical-enigma.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "heroku",
+    "sinon",
+    "nodeunit",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/rizalgowandy/symmetrical-enigma/issues"
+  },
+  "homepage": "https://github.com/rizalgowandy/symmetrical-enigma#readme",
+  "engines": {
+    "node": "^8.15.1"
+  }
 }

@@ -19,7 +19,7 @@ function handleDeleteRequest(response) {
 }
 
 function handleBadRequest(response) {
-  console.log("Unsupported http mehtod");
+  console.log("Unsupported http method");
   response.writeHead(400, { "Content-Type": "text/plain" });
   response.end("Bad request");
 }
