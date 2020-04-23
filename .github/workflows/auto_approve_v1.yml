@@ -1,7 +1,6 @@
-name: X
+name: Auto Approval
 on:
   pull_request:
-    branches: staging
     types:
       - opened
       - edited
