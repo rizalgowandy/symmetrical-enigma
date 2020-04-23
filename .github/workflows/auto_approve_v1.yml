@@ -1,5 +1,4 @@
-name: Auto approve
-
+name: X
 on:
   pull_request:
     branches: staging
